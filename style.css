@@ -69,8 +69,12 @@ p {
   margin-bottom:
 }
 
-.links a {
+.links {
   text-align: center;
+}
+
+.links a {
   color:grey;
   margin-right: 7vw;
+
 }
