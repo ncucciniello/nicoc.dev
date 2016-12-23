@@ -24,12 +24,25 @@ font-weight: 600;
 }
 
 .blink {
+  animation: blinker 1.5s step-start 0s infinite;
+  -webkit-animation: blinker 1.5s step-start 0s infinite;
   position: absolute;
   background-color: #FFFFFF;
-  margin-right: 12px;
-  /*display: inline-block;*/
+  margin-left: -12px;
+  margin-top: 2px;
   width: 4px;
   height: 16px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0.0;
+  }
 }
 
 .title {
@@ -50,6 +63,10 @@ span {
 
 section {
   margin-bottom: 100px;
+}
+
+.portfolio a {
+  color: white;
 }
 
 h2 {
@@ -95,4 +112,9 @@ h3 {
 
 .bottom {
   margin-bottom: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
