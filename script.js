@@ -20,6 +20,6 @@ function swag() {
     count++;
   }
 
-  typeit(' - Available for hire');
+  typeit(' - Currently available for hire');
   document.querySelector('.blink').removeAttribute('onmouseover');
 }
