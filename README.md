@@ -1,3 +1,3 @@
 # personal-site
 
-<img src='./img/img.png' />
+<img src='./assets/site_design.png' />

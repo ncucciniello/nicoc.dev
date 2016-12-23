@@ -1,4 +1,4 @@
-// document.querySelctor('.blink').onclick();
+// document.querySelector('.blink').onMouseOver="console.log('moused over')";
 
 
 // function contactMe() {

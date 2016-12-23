@@ -32,7 +32,12 @@ font-weight: 600;
   margin-top: 2px;
   width: 4px;
   height: 16px;
+  cursor: pointer;
 }
+
+/*.blink:hover {
+  cursor: pointer;
+}*/
 
 @keyframes blinker {
   50% {
@@ -57,9 +62,21 @@ font-weight: 600;
   font-weight: 400;
 }
 
-span {
+.bio a {
+  color: #FFFFFF;
   opacity: .6;
+  text-decoration: none;
 }
+
+.bio a:hover {
+  /*color: #FFFFFF;*/
+  opacity: 1;
+  /*text-decoration: none;*/
+}
+
+/*span {
+  opacity: .6;
+}*/
 
 section {
   margin-bottom: 100px;
