@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="21" cy="21" r="21"></circle>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="44" height="44">
+            <rect x="-1" y="-1" width="44" height="44" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Icon" transform="translate(1.000000, 1.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Oval-3">
+                    <use fill="#4230B1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="2" xlink:href="#path-1"></use>
+                </g>
+                <path d="M-15.8134618,27.4451673 L-2.98432185,19.620772 C1.25775664,17.0335605 7.72766096,17.589662 11.4628146,20.8595336 L13.9948226,23.0761333 C17.7316773,26.347494 23.7944557,26.3459197 27.5369462,23.0721544 L29.9626678,20.9502404 C33.7049215,17.6766823 40.1370554,17.1843395 44.3341426,19.8536796 L58.7200012,29.0030602 L21.5360249,47.0286634" id="Path-2" stroke="#FFFFFF" fill="#6759C0" mask="url(#mask-2)"></path>
+                <path d="M-15.8134766,37.4451673 L-3.7078377,29.0626304 C0.380901547,26.2313872 6.80530086,26.4992745 10.6357544,29.6562711 L13.8184494,32.2793958 C17.6514574,35.4384977 23.872479,35.4359472 27.7127062,32.2743446 L30.7812589,29.7480503 C34.6218371,26.5861587 41.0616089,26.28996 45.1767072,29.0945247 L59.715362,39.0030602 L21.5336914,56.0286634 L-8,48.7933118" id="Path-2" stroke="#FFFFFF" fill="#8679DC" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
