@@ -1,8 +1,7 @@
 function swag() {
-  // Type Effect
   let text = "";
   let count = 0;
-  let maxspeed = 125;
+  let maxspeed = 250;
 
   function typeit(effect) {
     text = effect;
@@ -20,6 +19,11 @@ function swag() {
     count++;
   }
 
-  typeit(' - Currently available for hire');
+  console.log(document.documentElement.clientWidth);
+
+  if ( document.documentElement.clientWidth <= 400 ) {
+    typeit(' - Available for hire');
+  } else typeit(' - Currently available for hire');
+
   document.querySelector('.blink').removeAttribute('onmouseover');
 }
