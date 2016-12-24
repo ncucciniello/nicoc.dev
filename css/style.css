@@ -164,16 +164,16 @@ footer a {
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
-  body {
+  /*body {
     width: 240px;
-  }
+  }*/
 
   header {
     margin-bottom: 80px;
   }
 
   .bio {
-    width: 240px;
+    /*width: 240px;*/
     font-size: 20px;
     margin-bottom: 80px;
   }
@@ -192,16 +192,16 @@ footer a {
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-  body {
+  /*body {
     width: 240px;
-  }
+  }*/
 
   header {
     margin-bottom: 80px;
   }
 
   .bio {
-    width: 240px;
+    /*width: 240px;*/
     font-size: 20px;
     margin-bottom: 80px;
   }
