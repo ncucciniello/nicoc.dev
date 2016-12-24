@@ -1,15 +1,15 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans';
 }
 
 body {
-  background-color: #422FB1;
   color: white;
   width: 500px;
   margin: 0 auto;
+  background-color: #422FB1;
 }
 
 header {
@@ -19,8 +19,8 @@ header {
 }
 
 h1 {
-font-size: 16px;
-font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .message {
@@ -28,20 +28,16 @@ font-weight: 600;
 }
 
 .blink {
-  animation: blinker 1.5s step-start 0s infinite;
-  -webkit-animation: blinker 1.5s step-start 0s infinite;
-  position: absolute;
-  background-color: #FFFFFF;
-  margin-left: -12px;
-  margin-top: 2px;
   width: 4px;
   height: 16px;
   cursor: pointer;
+  margin-top: 2px;
+  margin-left: -12px;
+  position: absolute;
+  background-color: #FFFFFF;
+  animation: blinker 1.5s step-start 0s infinite;
+  -webkit-animation: blinker 1.5s step-start 0s infinite;
 }
-
-/*.blink:hover {
-  cursor: pointer;
-}*/
 
 @keyframes blinker {
   50% {
@@ -60,16 +56,16 @@ font-weight: 600;
 
 .bio {
   width: 500px;
-  margin-bottom: 100px;
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 100px;
 }
 
 .bio a {
-  color: #FFFFFF;
-  transition: opacity .5s ease;
   opacity: .6;
+  color: #FFFFFF;
   text-decoration: none;
+  transition: opacity .5s ease;
 }
 
 .bio a:hover {
@@ -85,20 +81,20 @@ section {
 }
 
 h2 {
+  opacity: .6;
   font-size: 16px;
   font-weight: 400;
-  opacity: .6;
   margin-bottom: 26px;
 }
 
 .item {
-  display: inline-block;
   width: 240px;
   height: 183px;
-  border: 1px solid rgba(255,255,255,.26);
-  border-radius: 10px;
   text-align: center;
   margin-bottom: 22px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid rgba(255,255,255,.26);
 }
 
 .left {
@@ -110,13 +106,13 @@ h2 {
 }
 
 .item p {
-  border-top: 1px solid rgba(255,255,255,.26);
   width: 216px;
   height: 38px;
-  margin: 50px auto 0 auto;
-  line-height: 38px;
-  text-align: left;
   font-size: 16px;
+  text-align: left;
+  line-height: 38px;
+  margin: 50px auto 0 auto;
+  border-top: 1px solid rgba(255,255,255,.26);
 }
 
 h3 {
@@ -130,8 +126,8 @@ h3 {
 }
 
 footer a {
-  text-decoration: none;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 
@@ -164,16 +160,16 @@ footer a {
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
-  /*body {
+  body {
     width: 240px;
-  }*/
+  }
 
   header {
     margin-bottom: 80px;
   }
 
   .bio {
-    /*width: 240px;*/
+    width: 240px;
     font-size: 20px;
     margin-bottom: 80px;
   }
@@ -192,16 +188,16 @@ footer a {
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-  /*body {
+  body {
     width: 240px;
-  }*/
+  }
 
   header {
     margin-bottom: 80px;
   }
 
   .bio {
-    /*width: 240px;*/
+    width: 240px;
     font-size: 20px;
     margin-bottom: 80px;
   }
@@ -214,4 +210,3 @@ footer a {
     margin-bottom: 80px;
   }
 }
-

@@ -1,4 +1,5 @@
 function swag() {
+
   let text = "";
   let count = 0;
   let maxspeed = 250;
@@ -19,11 +20,10 @@ function swag() {
     count++;
   }
 
-  console.log(document.documentElement.clientWidth);
-
   if ( document.documentElement.clientWidth <= 400 ) {
     typeit(' - Available for hire');
   } else typeit(' - Currently available for hire');
 
   document.querySelector('.blink').removeAttribute('onmouseover');
+
 }
