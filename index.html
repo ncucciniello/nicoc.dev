@@ -1,21 +1,22 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-	<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' integrity='sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1' crossorigin='anonymous'>
-	<link href='./css/style.css' rel='stylesheet'>
-  <script src='./scripts/script.js'></script>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' integrity='sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1' crossorigin='anonymous'>
+  <link href='./css/mart.css' rel='stylesheet'>
+  <script src='./scripts/mart.js'></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
   <header>
-    <div class="blink" onmouseover="swag()"></div>
+    <div class="blink" onmouseover="hireMe()"></div>
     <h1 class='name'>Nico Cucciniello</h1>
     <h2 class='title'>Full-stack web developer</h2>
   </header>
 
-	<p class="bio">
+  <p class="bio">
     I’m a full-stack developer in the New York City area. I studied at
-    <a target="_blank" href="https://generalassemb.ly/">General Assembly</a>,
+    <a target="_blank" href="https://generalassemb.ly/education/web-development-immersive">General Assembly</a>
     and I am currently freelancing. Check out some of my projects below, I'm
     sure you'll like what you see.
   </p>
@@ -24,24 +25,67 @@
 
     <h2>Projects</h2>
 
-    <div class="item left">
-      <img src="./assets/mart_icon.svg" />
-      <a target="_blank" href="https://street-art-locations.herokuapp.com/"><p>Mart</p></a>
+    <div class="item-description">
+        <p class="hide mart-disc">
+          MART Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+        <p class="hide yoda-disc">
+          YODAFY Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+        <p class="hide playlist-disc">
+          PLAYLIST Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+        <p class="hide space-disc">
+          SPACE Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
     </div>
 
-    <div class="item">
-      <img src="./assets/yodafy_icon.svg" />
-      <a target="_blank" href="https://nico-yodafy.herokuapp.com/"><p>Yodafy</p></a>
-    </div>
+    <div class="item-container">
 
-    <div class="item left">
-      <img src="./assets/playlist_icon.svg" />
-      <a target="_blank" href="https://nstd--playlist.herokuapp.com/"><p>Playlists</p></a>
-    </div>
+      <div id="mart" class="item left">
+        <img src="./assets/mart_icon.svg" />
+        <!-- <a target="_blank" href="https://street-art-locations.herokuapp.com/"> -->
+          <p>Mart</p>
+        <!-- </a> -->
+      </div>
 
-    <div class="item">
-      <img src="./assets/space_icon.svg" />
-      <a target="_blank" href="https://ncucciniello.github.io/project-1/"><p>Litmosphere</p></a>
+      <div id="yoda" class="item">
+        <img src="./assets/yodafy_icon.svg" />
+        <!-- <a target="_blank" href="https://nico-yodafy.herokuapp.com/"> -->
+          <p>Yodafy</p>
+        <!-- </a> -->
+      </div>
+
+      <div id="playlist" class="item left">
+        <img src="./assets/playlist_icon.svg" />
+        <!-- <a target="_blank" href="https://nstd--playlist.herokuapp.com/"> -->
+          <p>Playlists</p>
+        <!-- </a> -->
+      </div>
+
+      <div id="space" class="item">
+        <img src="./assets/space_icon.svg" />
+        <!-- <a target="_blank" href="https://ncucciniello.github.io/project-1/"> -->
+          <p>Litmosphere</p>
+        <!-- </a> -->
+      </div>
+
     </div>
 
   </section>
