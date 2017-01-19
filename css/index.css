@@ -89,7 +89,7 @@ h2 {
   margin-bottom: 26px;
 }
 
-.item-description {
+.project-info {
   position: absolute;
   width: 500px;
   transition: display 1.5s ease;

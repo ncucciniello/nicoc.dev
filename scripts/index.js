@@ -27,41 +27,68 @@ function hireMe() {
   document.querySelector('.blink').removeAttribute('onmouseover');
 }
 
-// function showDiscripton() {
-//   $itemContainer = document.querySelector('.item-container');
-//   $itemContainer.classList.toggle('moved');
-// }
-
-
 //--------------------------------------------------------------------------------
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  $button = document.querySelectorAll('.item');
-  for (i = 0; i< $button.length; i++) {
-    $button[i].addEventListener('click', showDiscripton);
+  items = document.querySelectorAll('.item');
+  for (i = 0; i< items.length; i++) {
+    items[i].addEventListener('click', showDiscripton);
   }
 
   function showDiscripton() {
-    $itemContainer = document.querySelector('.item-container');
-    $itemContainer.classList.toggle('item-container-opened');
+    itemsContainer = document.querySelector('.item-container');
+    itemsContainer.classList.add('item-container-opened');
   }
 
+  //--------------------------------------------------------------------------------
+  document.querySelector('#project-name').addEventListener('click', () => {
+
+    function descriptionBackToDefult() {
+      document.querySelector('#project-name').innerHTML = 'Projects';
+      document.querySelector('.description').innerHTML = '';
+    }
+
+    function removeSelected() {
+      for (i = 0; i< items.length; i++) {
+        items[i].style.boxShadow = '';
+      }
+    }
+
+    backToNorm = setTimeout(descriptionBackToDefult, 1400);
+
+    backToNorm;
+    removeSelected();
+    document.querySelector('.item-container').classList.remove('item-container-opened');
+  });
+  //--------------------------------------------------------------------------------
+
   document.querySelector('#mart').addEventListener('click', () => {
-    document.querySelector('.mart-disc').classList.toggle('hide');
-    document.querySelector('.close-button').classList.toggle('hide')
+    document.querySelector('#mart').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+    document.querySelector('#project-name').innerHTML = 'Mart';
+    document.querySelector('.description').innerHTML = `MART description goes here`;
+    clearTimeout(backToNorm);
   });
 
   document.querySelector('#yoda').addEventListener('click', () => {
-    document.querySelector('.yoda-disc').classList.toggle('hide')
+    document.querySelector('#yoda').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+    document.querySelector('#project-name').innerHTML = 'Yodafy';
+    document.querySelector('.description').innerHTML = `YODAFY description goes here.`;
+    clearTimeout(backToNorm);
   });
 
   document.querySelector('#playlist').addEventListener('click', () => {
-    document.querySelector('.playlist-disc').classList.toggle('hide')
+    document.querySelector('#playlist').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+    document.querySelector('#project-name').innerHTML = 'Playlist';
+    document.querySelector('.description').innerHTML = `Playlist description goes here.`;
+    clearTimeout(backToNorm);
   });
 
   document.querySelector('#space').addEventListener('click', () => {
-    document.querySelector('.space-disc').classList.toggle('hide')
+    document.querySelector('#space').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+    document.querySelector('#project-name').innerHTML = 'Space';
+    document.querySelector('.description').innerHTML = `Space description goes here.`;
+    clearTimeout(backToNorm);
   });
 
 });
