@@ -27,68 +27,74 @@ function hireMe() {
   document.querySelector('.blink').removeAttribute('onmouseover');
 }
 
+
+// JavaScript for original single page site design with hideable project descriptions
+
 //--------------------------------------------------------------------------------
 
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
 
-  items = document.querySelectorAll('.item');
-  for (i = 0; i< items.length; i++) {
-    items[i].addEventListener('click', showDiscripton);
-  }
+//   items = document.querySelectorAll('.item');
+//   for (i = 0; i< items.length; i++) {
+//     // if ((document.querySelector('.item-container').left) < '500') {
+//       items[i].addEventListener('click', showDiscripton);
+//     // }
+//   }
 
-  function showDiscripton() {
-    itemsContainer = document.querySelector('.item-container');
-    itemsContainer.classList.add('item-container-opened');
-  }
+//   function showDiscripton() {
+//     itemsContainer = document.querySelector('.item-container');
+//     itemsContainer.classList.add('item-container-opened');
+//     console.log(document.querySelector('.item-container').style.marginLeft);
+//   }
 
-  //--------------------------------------------------------------------------------
-  document.querySelector('#project-name').addEventListener('click', () => {
+//   //--------------------------------------------------------------------------------
+//   document.querySelector('#project-name').addEventListener('click', () => {
 
-    function descriptionBackToDefult() {
-      document.querySelector('#project-name').innerHTML = 'Projects';
-      document.querySelector('.description').innerHTML = '';
-    }
+//     function descriptionBackToDefult() {
+//       document.querySelector('#project-name').innerHTML = 'Projects';
+//       document.querySelector('.description').innerHTML = '';
+//     }
 
-    function removeSelected() {
-      for (i = 0; i< items.length; i++) {
-        items[i].style.boxShadow = '';
-      }
-    }
+//     function removeSelected() {
+//       for (i = 0; i< items.length; i++) {
+//         items[i].style.boxShadow = '';
+//       }
+//     }
 
-    backToNorm = setTimeout(descriptionBackToDefult, 1400);
+//     backToNorm = setTimeout(descriptionBackToDefult, 1400);
 
-    backToNorm;
-    removeSelected();
-    document.querySelector('.item-container').classList.remove('item-container-opened');
-  });
-  //--------------------------------------------------------------------------------
+//     backToNorm;
+//     removeSelected();
+//     document.querySelector('.item-container').classList.remove('item-container-opened');
+//   });
+//   //--------------------------------------------------------------------------------
 
-  document.querySelector('#mart').addEventListener('click', () => {
-    document.querySelector('#mart').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
-    document.querySelector('#project-name').innerHTML = 'Mart';
-    document.querySelector('.description').innerHTML = `MART description goes here`;
-    clearTimeout(backToNorm);
-  });
+//   document.querySelector('#mart').addEventListener('click', () => {
+//     // document.querySelector('#mart').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+//     document.querySelector('#project-name').innerHTML = 'Mart';
+//     document.querySelector('.description').innerHTML = `MART description goes here`;
+//     clearTimeout(backToNorm);
+//   });
 
-  document.querySelector('#yoda').addEventListener('click', () => {
-    document.querySelector('#yoda').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
-    document.querySelector('#project-name').innerHTML = 'Yodafy';
-    document.querySelector('.description').innerHTML = `YODAFY description goes here.`;
-    clearTimeout(backToNorm);
-  });
+//   document.querySelector('#yoda').addEventListener('click', () => {
+//     // document.querySelector('#yoda').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+//     document.querySelector('#project-name').innerHTML = 'Yodafy';
+//     document.querySelector('.description').innerHTML = `YODAFY description goes here.`;
+//     clearTimeout(backToNorm);
+//   });
 
-  document.querySelector('#playlist').addEventListener('click', () => {
-    document.querySelector('#playlist').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
-    document.querySelector('#project-name').innerHTML = 'Playlist';
-    document.querySelector('.description').innerHTML = `Playlist description goes here.`;
-    clearTimeout(backToNorm);
-  });
+//   document.querySelector('#playlist').addEventListener('click', () => {
+//     // document.querySelector('#playlist').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+//     document.querySelector('#project-name').innerHTML = 'Playlist';
+//     document.querySelector('.description').innerHTML = `Playlist description goes here.`;
+//     clearTimeout(backToNorm);
+//   });
 
-  document.querySelector('#space').addEventListener('click', () => {
-    document.querySelector('#space').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
-    document.querySelector('#project-name').innerHTML = 'Space';
-    document.querySelector('.description').innerHTML = `Space description goes here.`;
-    clearTimeout(backToNorm);
-  });
+//   document.querySelector('#space').addEventListener('click', () => {
+//     // document.querySelector('#space').style.boxShadow = '0 0 .5rem rgba(255,255,255,1)';
+//     document.querySelector('#project-name').innerHTML = 'Space';
+//     document.querySelector('.description').innerHTML = `Space description goes here.`;
+//     clearTimeout(backToNorm);
+//   });
 
-});
+// });
