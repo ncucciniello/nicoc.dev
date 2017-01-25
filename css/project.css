@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+  background-color: #422FB1;
+  overflow-x: hidden;
+}
+
+header {
+  height: 46px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.blink {
+  width: 4px;
+  height: 16px;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-left: -12px;
+  position: absolute;
+  background-color: #FFFFFF;
+  animation: blinker 1.5s step-start 0s infinite;
+  -webkit-animation: blinker 1.5s step-start 0s infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+header a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h2 {
+  opacity: .6;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+section p {
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.language {
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 8px;
+  margin: 0 10px 10px 0;
+  padding: 11px;
+  border: 1px solid rgba(255,255,255,.2);
+}
+
+#main-img {
+  height: 350px;
+  width: 650px;
+  margin-left: -75px;
+  margin-bottom: 80px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+section img {
+  height: 250px;
+  width: 315px;
+}
+
+.double-img {
+  margin: 0 0 80px -75px;
+  width: 650px;
+
+}
+
+#right-img {
+  float: right;
+}
+
+footer p {
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+footer a {
+  opacity: .6;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: opacity .5s ease;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+
+#proj-link {
+  margin-bottom: 0;
+}
+
+#git-link {
+  margin-bottom: 80px;
+  float: right;
+}
+
+@media (max-width: 400px) {
+  body {
+    width: 240px;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+
+
+}
+
+ /*iPhone + sizing */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {\
+
+  body {
+    width: 240px;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+}
+
+/* iPhone sizing */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    width: 240px;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+}
