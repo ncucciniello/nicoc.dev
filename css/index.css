@@ -102,6 +102,10 @@ h2 {
   transition: margin-left 1.5s ease;
 }
 
+.item-container a{
+  display: inline-block;
+}
+
 /*CSS for original single page site design with hideable project descriptions
 .item-container-opened {
   margin-left: 550px;
