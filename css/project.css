@@ -85,7 +85,7 @@ section p {
 }
 
 #main-img {
-  height: 350px;
+  /*height: 350px;*/
   width: 650px;
   margin-left: -75px;
   margin-bottom: 80px;
@@ -104,7 +104,6 @@ section img {
 .double-img {
   margin: 0 0 80px -75px;
   width: 650px;
-
 }
 
 #right-img {
@@ -145,7 +144,24 @@ footer a:hover {
     margin-bottom: 80px;
   }
 
+  #main-img {
+    left: 0;
+    margin-left: -80px;
+    width: 100vw;
+  }
 
+  section img {
+    height: 156px;
+    width: 197px;
+  }
+
+  .double-img {
+    margin: 0 0 80px -80px;
+    width: 400px;
+  }
+  #git-link {
+    float: left;
+  }
 }
 
  /*iPhone + sizing */
@@ -161,6 +177,25 @@ footer a:hover {
   header {
     margin-bottom: 80px;
   }
+
+  #main-img {
+    left: 0;
+    margin-left: -80px;
+    width: 100vw;
+  }
+
+  section img {
+    height: 156px;
+    width: 197px;
+  }
+
+  .double-img {
+    margin: 0 0 80px -80px;
+    width: 400px;
+  }
+  #git-link {
+    float: left;
+  }
 }
 
 /* iPhone sizing */
@@ -175,5 +210,24 @@ footer a:hover {
 
   header {
     margin-bottom: 80px;
+  }
+
+  #main-img {
+    left: 0;
+    margin-left: -80px;
+    width: 100vw;
+  }
+
+  section img {
+    height: 156px;
+    width: 197px;
+  }
+
+  .double-img {
+    margin: 0 0 80px -80px;
+    width: 400px;
+  }
+  #git-link {
+    float: left;
   }
 }
