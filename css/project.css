@@ -134,7 +134,7 @@ footer a:hover {
   float: right;
 }
 
-/*@media (max-width: 400px) {
+@media (max-width: 400px) {
   body {
     width: 240px;
   }
@@ -161,14 +161,13 @@ footer a:hover {
   #git-link {
     float: left;
   }
-}*/
+}
 
  /*iPhone + sizing */
-/*@media only screen
+@media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {\
-
   body {
     width: 240px;
   }
@@ -185,17 +184,17 @@ footer a:hover {
 
   section img {
     height: 156px;
-    width: 150px;
+    width: 195px;
   }
 
   .double-img {
-    margin: 0 0 80px -80px;
-    width: 400px;
+    margin: 0 0 80px -100px;
+    width: 100vw;
   }
   #git-link {
     float: left;
   }
-}*/
+}
 
 /* iPhone sizing */
 @media only screen
@@ -208,34 +207,25 @@ footer a:hover {
   }
 
   header {
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-
-  section {
-    margin-bottom: 80px;
-  }
-  section p {
     margin-bottom: 80px;
   }
 
   #main-img {
-    /*left: 0;*/
-    margin-left: 0px;
-    width: 100vw;
+    left: 0;
+    margin-left: -68px;
+    width: 375px;
   }
 
-/*  section img {
-    height: 156px;
-    width: 150px;
-  }*/
+  section img {
+    height: 146px;
+    width: 185px;
+  }
 
   .double-img {
-    margin: 0 0 0px 0px;
+    margin: 0 0 80px -68px;
     width: 100vw;
   }
-/*
   #git-link {
     float: left;
-  }*/
+  }
 }
