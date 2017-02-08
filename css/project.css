@@ -7,17 +7,13 @@
 }
 
 body {
-  color: white;
-  width: 500px;
-  margin: 0 auto;
+  color: #FFFFFF;
   background-color: #422FB1;
-  overflow-x: hidden;
 }
 
 header {
-  height: 46px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: 500px;
+  margin: 100px auto 100px auto;
 }
 
 .blink {
@@ -37,6 +33,7 @@ header {
     opacity: 0.0;
   }
 }
+
 @-webkit-keyframes blinker {
   50% {
     opacity: 0.0;
@@ -59,7 +56,12 @@ h2 {
   font-weight: 400;
 }
 
-h3 {
+section {
+  width: 500px;
+  margin: 0 auto 100px auto;
+}
+
+section h3 {
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -72,45 +74,52 @@ section p {
 }
 
 .language {
-  font-size: 18px;
-  display: inline-block;
-  border-radius: 8px;
-  margin: 0 10px 10px 0;
   padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
   border: 1px solid rgba(255,255,255,.2);
-}
-
-section {
-  margin-bottom: 100px;
 }
 
 #main-img {
   width: 650px;
-  margin-left: -75px;
-  margin-bottom: 80px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 100px;
 }
 
-p {
+#main-img img {
+  width: 100%;
+}
+
+#project-info {
+  width: 500px;
   font-size: 18px;
-  margin-bottom: 80px;
-}
-
-section img {
-  height: 250px;
-  width: 315px;
+  margin: 0 auto 100px auto;
 }
 
 .double-img {
-  margin: 0 0 80px -75px;
   width: 650px;
+  display: flex;
+  margin: 0 auto 100px auto;
+  justify-content: space-between;
 }
 
-#right-img {
-  float: right;
+.img-box {
+  width: 315px;
+}
+
+.img-box img {
+  max-width: 100%;
+}
+
+footer {
+  width: 500px;
+  margin: 0 auto 100px auto;
 }
 
 footer p {
-  margin-bottom: 40px;
   display: inline-block;
 }
 
@@ -123,109 +132,169 @@ footer a {
 
 footer a:hover {
   opacity: 1;
-}
-
-#proj-link {
-  margin-bottom: 0;
+  cursor: pointer;
 }
 
 #git-link {
-  margin-bottom: 80px;
   float: right;
 }
 
-@media (max-width: 400px) {
-  body {
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 800px) {
+  header {
     width: 240px;
+    margin: 80px auto 80px auto;
   }
 
-  header {
-    margin-bottom: 80px;
+  section {
+  width: 240px;
+  margin: 0 auto 80px auto;
   }
 
   #main-img {
-    left: 0;
-    margin-left: -80px;
+    width: 100vw;
+  }
+
+  #main-img img {
     width: 100%;
   }
 
-  section img {
-    height: 156px;
-    width: 195px;
+  #project-info {
+    width: 240px;
+    margin: 0 auto 80px auto;
   }
 
   .double-img {
-    margin: 0 0 80px -80px;
-    width: 100vw;
+    width: 100%;
+    margin-bottom: 80px;
   }
+
+  .img-box {
+    width: 49%;
+  }
+
+  footer {
+    width: 240px;
+    margin: 0 auto 0 auto;
+  }
+
+  footer p {
+    display: block;
+  }
+
   #git-link {
     float: left;
+    margin-bottom: 80px;
   }
 }
 
- /*iPhone + sizing */
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*iPhone + sizing */
+
+
 @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {\
-  body {
+  header {
     width: 240px;
+    margin: 80px auto 80px auto;
   }
 
-  header {
-    margin-bottom: 80px;
+  section {
+  width: 240px;
+  margin: 0 auto 80px auto;
   }
 
   #main-img {
-    left: 0;
-    margin-left: -80px;
     width: 100vw;
   }
 
-  section img {
-    height: 156px;
-    width: 195px;
+  #main-img img {
+    width: 100%;
+  }
+
+  #project-info {
+    width: 240px;
+    margin: 0 auto 80px auto;
   }
 
   .double-img {
-    margin: 0 0 80px -100px;
-    width: 100vw;
+    width: 100%;
+    margin-bottom: 80px;
   }
+
+  .img-box {
+    width: 49%;
+  }
+
+  footer {
+  width: 240px;
+  margin: 0 auto 0 auto;
+}
+
+  footer p {
+    display: block;
+  }
+
   #git-link {
     float: left;
+    margin-bottom: 80px;
   }
 }
 
+/*--------------------------------------------------------------------------------------------------------------------------------*/
 /* iPhone sizing */
+
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
-  body {
+  header {
     width: 240px;
+    margin: 80px auto 80px auto;
   }
 
-  header {
-    margin-bottom: 80px;
+  section {
+  width: 240px;
+  margin: 0 auto 80px auto;
   }
 
   #main-img {
-    left: 0;
-    margin-left: -68px;
-    width: 375px;
+    width: 100vw;
   }
 
-  section img {
-    height: 146px;
-    width: 185px;
+  #main-img img {
+    width: 100%;
+  }
+
+  #project-info {
+    width: 240px;
+    margin: 0 auto 80px auto;
   }
 
   .double-img {
-    margin: 0 0 80px -68px;
-    width: 100vw;
+    width: 100%;
+    margin-bottom: 80px;
   }
+
+  .img-box {
+    width: 49%;
+  }
+
+  footer {
+  width: 240px;
+  margin: 0 auto 0 auto;
+}
+
+  footer p {
+    display: block;
+  }
+
   #git-link {
     float: left;
+    margin-bottom: 80px;
   }
 }
