@@ -97,6 +97,19 @@ section p {
   width: 500px;
   font-size: 18px;
   margin: 0 auto 100px auto;
+  color: white;
+}
+
+#project-info a {
+  opacity: .6;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: opacity .5s ease;
+}
+
+#project-info a:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .double-img {
