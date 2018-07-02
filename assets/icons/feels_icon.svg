@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>feels</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="feels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="playlist_icon">
+            <path d="M0,8.99873844 C0,4.0287874 4.02869666,0 8.99873844,0 L35.0012616,0 C39.9712126,0 44,4.02869666 44,8.99873844 L44,35.0012616 C44,39.9712126 39.9713033,44 35.0012616,44 L8.99873844,44 C4.0287874,44 0,39.9713033 0,35.0012616 L0,8.99873844 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M1,8.99873844 L1,35.0012616 C1,39.4191036 4.58115718,43 8.99873844,43 L35.0012616,43 C39.4191036,43 43,39.4188428 43,35.0012616 L43,8.99873844 C43,4.58089638 39.4188428,1 35.0012616,1 L8.99873844,1 C4.58089638,1 1,4.58115718 1,8.99873844 Z" id="Path" fill="#6759C0" fill-rule="nonzero"></path>
+            <circle id="Oval" stroke="#FFFFFF" fill="#4230B1" cx="22" cy="22" r="13.5"></circle>
+        </g>
+    </g>
+</svg>
