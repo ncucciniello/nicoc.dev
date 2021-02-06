@@ -103,6 +103,10 @@ h2 {
   margin-top: 50px;
 }
 
+#trainer img {
+  width: 44px;
+  height: 44px;
+}
 .item p {
   width: 216px;
   height: 38px;
